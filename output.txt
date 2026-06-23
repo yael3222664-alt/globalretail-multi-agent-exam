@@ -1,0 +1,59 @@
+GlobalRetail – תוצאות מבחן קוד
+קובץ קלט: sales_data.csv  |  שורות: 50
+============================================================
+שאלה 6 – ניתוח מכירות
+============================================================
+
+סה"כ שורות בקובץ:   50
+שורות תקינות:        46
+שורות שדולגו:        4
+
+--- מיון לפי Total_Amount (גבוה ← נמוך) ---
+  Electronics      Total_Amount:    3300.00
+  Electronics      Total_Amount:    3100.00
+  Electronics      Total_Amount:    2750.00
+  Electronics      Total_Amount:    2400.00
+  Electronics      Total_Amount:    2200.00
+
+--- מיון לפי Profit_Margin (גבוה ← נמוך) ---
+  Clothing         Profit_Margin:   0.55
+  Clothing         Profit_Margin:   0.53
+  Clothing         Profit_Margin:   0.52
+  Clothing         Profit_Margin:   0.51
+  Clothing         Profit_Margin:   0.50
+
+--- סכום ומיצוע Total_Amount לפי Category ---
+  Clothing        סכום:    3045.50   מיצוע:   304.55
+  Electronics     סכום:   22080.00   מיצוע:  2208.00
+  Furniture       סכום:   11560.00   מיצוע:  1284.44
+  Groceries       סכום:     731.70   מיצוע:    81.30
+  Sports          סכום:    4370.00   מיצוע:   546.25
+
+--- דירוג קטגוריות לפי Gross_Profit כולל ---
+  #1  Electronics      Gross Profit:    4809.00
+  #2  Furniture        Gross Profit:    3387.90
+  #3  Sports           Gross Profit:    1564.50
+  #4  Clothing         Gross Profit:    1486.62
+  #5  Groceries        Gross Profit:      78.91
+
+============================================================
+שאלה 7 (בונוס) – ניקוי ואיכות נתונים
+============================================================
+
+ערכים חסרים ב-Total_Amount:    2
+ערכים חסרים ב-Profit_Margin:   1
+ערכים שליליים ב-Total_Amount:  1
+שורות עם עמודות לא צפויות:     0
+
+סה"כ בעיות איכות נתונים:       4
+
+סיכום בעיות:
+  - 2 שורות עם Total_Amount חסר
+  - 1 שורות עם Profit_Margin חסר
+  - 1 שורות עם Total_Amount שלילי (עסקאות לא תקינות)
+
+המלצה: יש לנקות את הנתונים ולתקן את השורות הבעייתיות לפני ניתוח נוסף.
+
+============================================================
+סיום הרצה
+============================================================
