@@ -14,7 +14,7 @@ The code is written in Python 3 and uses only built-in libraries (`csv`, `os`, `
 1. Ensure Python 3 is installed on your machine.
 2. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/globalretail-multi-agent-exam.git](https://github.com/YOUR_USERNAME/globalretail-multi-agent-exam.git)
+   git clone [https://github.com/yael3222664-alt/globalretail-multi-agent-exam.git]
    ```
 3. Navigate to the project directory:
    ```bash
